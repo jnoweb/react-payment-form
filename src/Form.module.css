@@ -1,0 +1,92 @@
+.errorMessage {
+    color: #f00;
+    padding: 0 10px;
+    margin-top: 5px;
+  }
+  
+  .flexOuter > li { 
+    align-items: normal; 
+  }
+  
+  .flexOuter > li > label { 
+    align-items: normal; 
+  }
+  
+  .flexOuter {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .flexOuter {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .flexOuter li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .flexOuter > li:not(:last-child) {
+    margin-bottom: 20px;
+    align-items: normal;
+  }
+  
+  .flexOuter li label,
+  .flexOuter li p {
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+  
+  .flexOuter > li > label,
+  .flexOuter li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+  }
+  
+  .flexOuter > li > label + * {
+    flex: 1 0 220px;
+  }
+  
+  .flexOuter li p {
+    margin: 0;
+  }
+  
+  .flexOuter li input:not([type='checkbox']),
+  .flex-outer li textarea {
+    padding: 15px;
+    border: none;
+  }
+  
+  .flexOuter li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+    font-size: 100%;
+  }
+  
+  .flexOuter > li > select {
+    flex: 1 0 120px;
+    max-width: 220px;
+    height: 45px;
+  }
+  
+  .shippingCostAmount {
+    margin-top: 7px;
+  }
+  
+  .checkmark {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    margin-left: -40px;
+    margin-top: 7px;
+  }

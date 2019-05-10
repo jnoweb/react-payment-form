@@ -1,0 +1,21 @@
+.suggestions {
+    position: absolute;
+    background: #ffffff;
+  
+    padding: 0;
+  }
+  
+  .suggestions li {
+    color: initial;
+    padding: 10px 14px;
+  }
+  
+  .highlighted {
+    background: #92dbd9;
+    color: white;
+  }
+  
+  .selected {
+    font-weight: bold;
+  }
+  
